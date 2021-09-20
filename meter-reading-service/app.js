@@ -32,5 +32,3 @@ const io = new Server(server, {
 });
 
 new SocketInit(io)
-
-module.exports = io
