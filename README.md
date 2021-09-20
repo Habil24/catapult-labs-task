@@ -18,7 +18,7 @@ Please execute command `npm run test`, to run tests.
 ## Setting up
 
 ### Dependencies
-* RabbitMQ 3.9.5
+* RabbitMQ 3.9.5 (Should be up & running)
 * NPM 
 
 ### Back-end: Meter Reading Service
