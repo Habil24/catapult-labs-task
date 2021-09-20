@@ -1,0 +1,22 @@
+{
+  "name": "meter-reading-service",
+  "version": "1.0.0",
+  "description": "meter reading service for gas consumption",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Habil Ganbarli",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "socket.io": "^4.2.0"
+  }
+}

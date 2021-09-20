@@ -1,0 +1,7 @@
+# gas-consumption-dashboard
+/gas-consumption-dashboard/node_modules
+/gas-consumption-dashboard/package-lock.json
+
+# meter-reading-service
+/meter-reading-service/node_modules
+/meter-reading-service/package-lock.json
