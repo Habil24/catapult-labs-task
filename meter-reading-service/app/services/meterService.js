@@ -3,7 +3,6 @@ const _ = require("lodash")
 const moment = require("moment")
 
 
-
 const aggregatedDataByDate = (meterData) => {
     let groupedData = _(meterData)
         .sortBy(m => new Date(m.timestamp))

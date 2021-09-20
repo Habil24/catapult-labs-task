@@ -1,8 +1,8 @@
 const amqp = require("amqplib")
-const meterDataQueue = "meter-data-queue"
-const connectionUrl = "amqp://localhost"
 const { generateRandomMeterData,fetchMeterData,aggregatedDataByDate } = require("../services/meterService")
 
+const meterDataQueue = "meter-data-queue"
+const connectionUrl = "amqp://localhost"
 let publishChannel = null
 
 const connectToChannel = async () => {

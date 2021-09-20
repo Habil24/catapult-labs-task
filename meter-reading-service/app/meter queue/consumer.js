@@ -2,6 +2,7 @@ const amqp = require("amqplib")
 const connectionUrl = "amqp://localhost"
 const meterDataQueue = "meter-data-queue"
 const SocketInit = require("../socket")
+
 let publishChannel = null
 
 const connectToChannel = async () => {
