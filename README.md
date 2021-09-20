@@ -20,6 +20,12 @@ Please execute command `npm run test`, to run tests.
 ### Dependencies
 * RabbitMQ 3.9.5 (Should be up & running)
 * NPM 
+* Docker
+
+## RabbitMQ Message Broker
+Make sure Docker is installed and run the command below, in order to use RabbitMQ 
+before setting up back-end and front-end:
+`docker run -d --hostname my-rabbit -p 5672:5672 --name some-rabbit rabbitmq`
 
 ### Back-end: Meter Reading Service
 * CD into the `meter-reading service` directory
